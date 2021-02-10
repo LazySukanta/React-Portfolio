@@ -1,0 +1,186 @@
+* {
+  font-family: Source Sans Pro,Helvetica,Arial,sans-serif;
+
+}
+
+
+.abc{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,39,43,0.9110994739692753) 0%);
+  position: relative;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/*--------------------------------- navbar */
+.navbar-dark {
+  background-color: #512DA8;
+  font-weight: 500;
+  
+}
+
+.about {
+  margin-top: 0.5rem;
+  
+  /* padding-top: 4rem !important; */
+}
+
+.about-content{
+  padding-top: 5rem;
+  
+  font-size: large;
+  
+}
+.about-img {
+
+  border-radius: 50%;
+}
+/* ------------------------------heading part */
+.header{
+  height: 700px;
+  padding-top: 9rem;
+  padding-bottom: 2rem;
+  /* object-fit: contain; */
+}
+.header-para{
+  font-size: 1.8rem;
+  
+}
+.header-title{
+  color: var(--primary-orange);
+  /* color: blueviolet; */
+  /* color: white; */
+  font-size: 5rem;
+  
+  font-family: 'Frijole', cursive;
+  top:2em;
+}
+
+.header-btn{
+  padding: 8px 8px;
+  border-radius: 2px;
+  border: none;
+  color: #fff;
+  background-color: #5eba7d;
+}
+.header p {
+  box-sizing: border-box;
+}
+.header-banner {
+  font-size: 2.5rem;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .header-title{
+    font-size: 3rem;
+    font-family: 'Frijole', cursive;
+    top:2em;
+  }
+
+  .header-banner {
+    font-size: 2rem;
+  }
+}
+
+.resume-button {
+  margin-top: 2rem;
+  background-color: #512DA8;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.resume-button:hover {
+  border: 1px solid #512DA8;
+  background-color: white !important;
+  color: #512DA8;
+}
+
+.resume-button > a{
+  color: white;
+}
+
+
+
+/*  ------------------------------Projects */
+
+.project{
+  display: flex;
+  margin-top: 4rem;
+  }
+  
+  /* work */
+
+ .work {
+   margin-top: 3rem;
+   align-self: center !important;
+ }
+
+
+ /* hr */
+ hr {
+  background-color:#692ba8;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: #692ba8;
+  border-image: initial;
+  margin: 2rem auto;
+}
+
+/* -------------------------------ribbon */
+.ribbon{
+  height: 4px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#692ba8;
+  
+}
+.ribbon-little{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-top: -54px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#692ba8;
+}
+
+/* -------------------------------social icon */
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.social-icons li {
+  display: inline-block;
+  margin: 0 .5em;
+  font-size: clamp(1em,3.2vw,2.5em);
+}
+.social-icons-footer{
+  list-style: none;
+}
+.social-icons-footer li{
+  display: inline-block;
+  font-size: 1.8em;
+  margin: 0 .5em;
+
+}
+.copyright-footer{
+  margin-top: 15px;
+}
+
+/* ------------------------------a link */
+a {
+  text-decoration: none !important;
+  color: #575b60;
+}
+a:hover {
+  color: #512DA8;
+}
+
+p {
+  font-weight: 300;
+}
