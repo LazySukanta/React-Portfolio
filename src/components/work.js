@@ -41,7 +41,7 @@ const Work = () => {
           {" "}
           <Button
             variant="primary"
-            className="resume-button"
+            className="btns draw-border working"
             style={{ background: "greay" }}
           >
             SEE MORE

@@ -79,9 +79,9 @@ const Header = () => {
               </li>
               {/*  */}
             </ul>
-            <Button className="resume-button">
+            <Button className="btns draw-border resume" style={{}}>
               <a
-                href="https://drive.google.com/file/d/1KabM0urY0KDT4j4DVjd6aVUuK88WHf8n/view?usp=sharing"
+                href="https://drive.google.com/file/d/1mlhWrfeiHI3UDOAdI3c3OcltFZ2YXrmf/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
