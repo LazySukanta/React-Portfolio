@@ -9,7 +9,7 @@ const About = () => {
         <hr class="ribbon" />
       <div className="container " id='about'>
         {/* <hr class="ribbon-little" /> */}
-        <h1 className="pb-1 pt-5 text-center">About</h1>
+        <h1 className="pb-1 pt-5 text-center" style={{color:"orange"}}>About</h1>
         <div className="row about">
           <div className="about-content  col-sm-6">
             <p>{data.abouttext[0]}</p>
@@ -19,7 +19,7 @@ const About = () => {
 
           <div className="col-sm-6 p-2  about-img">
             
-              <img src={myImg} alt="Bhaskar Maity" className="about-img img-fluid" style={{borderRadious: "50%"}}></img>
+              <img src={myImg} alt="Sukanta Dinda" className="about-img img-fluid" style={{borderRadious: "50%"}}></img>
             
           </div>
         </div>

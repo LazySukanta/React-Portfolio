@@ -3,10 +3,9 @@ import { Link } from "react-scroll";
 import { Navbar, Nav } from "react-bootstrap";
 
 const logo = {
-  width:" 16.25rem;" ,
-  fontSize: "2.5rem;"
+  width: " 16.25rem;",
+  fontSize: "2.5rem;",
 };
-
 
 function NavControl() {
   return (
@@ -15,10 +14,12 @@ function NavControl() {
       expand="sm"
       className="navbar-dark sticky-top"
       variant="dark"
-      style={{ backgroundColor: "#343a40"}}
+      style={{ backgroundColor: "#343a40" }}
     >
       <div className="container">
-        <Navbar.Brand href="#home"><h1 style={logo}>Sukanta</h1></Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <h1 style={logo}>Portfolio</h1>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
@@ -30,7 +31,9 @@ function NavControl() {
               offset={-70}
               duration={500}
             >
-              <Nav.Link href="#home" className="nav-li-a">Home</Nav.Link>
+              <Nav.Link href="#home" className="nav-li-a">
+                Home
+              </Nav.Link>
             </Link>
 
             <Link
@@ -41,7 +44,9 @@ function NavControl() {
               offset={-70}
               duration={500}
             >
-              <Nav.Link href="#about" className="nav-li-a">About</Nav.Link>
+              <Nav.Link href="#about" className="nav-li-a">
+                About
+              </Nav.Link>
             </Link>
 
             <Link
@@ -52,7 +57,9 @@ function NavControl() {
               offset={-70}
               duration={500}
             >
-              <Nav.Link href="#skills" className="nav-li-a">Skills</Nav.Link>
+              <Nav.Link href="#skills" className="nav-li-a">
+                Skills
+              </Nav.Link>
             </Link>
 
             <Link
@@ -63,10 +70,12 @@ function NavControl() {
               offset={-70}
               duration={500}
             >
-              <Nav.Link href="#projects" className="nav-li-a">Projects</Nav.Link>
+              <Nav.Link href="#projects" className="nav-li-a">
+                Projects
+              </Nav.Link>
             </Link>
 
-            <Link
+            {/* <Link
               activeClass="active"
               to="contact"
               spy={true}
@@ -75,7 +84,7 @@ function NavControl() {
               duration={500}
             >
               <Nav.Link href="#contact" className="nav-li-a">Catch me</Nav.Link>
-            </Link>
+            </Link> */}
           </Nav>
         </Navbar.Collapse>
       </div>

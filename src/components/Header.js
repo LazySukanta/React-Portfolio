@@ -2,39 +2,36 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import data from "../mydata";
 import Typed from "react-typed";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaInstagram,
-  FaTwitter,
-  FaKaggle,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { Button } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <div className="container header" id="home" >
+    <div className="container header" id="home">
       <div className="row">
         <div className="col-12 text-center">
           <Fade bottom>
-          <Typed 
-          className="typed-text"
-          strings={["I am Sukanta Dinda."]}
-          typeSpeed={40}
-          className="header-title"
-        />
-            <p className="header-banner" style={{color:"white"}}>
+            <Typed
+              className="typed-text"
+              strings={["I am Sukanta Dinda."]}
+              typeSpeed={60}
+              backSpeed={50}
+              // backDelay={40}
+              loop
+              className="header-title"
+            />
+            <p className="header-banner" style={{ color: "white" }}>
               {data.headerTagline[0]}
               {data.headerTagline[1]}
               <br></br>
             </p>
 
-            <p className="header-para" style={{color:"white"}}>
+            <p className="header-para" style={{ color: "white" }}>
               {data.headerTagline[2]}
               <br></br>
             </p>
-            <ul className="social-icons" >
+            <ul className="social-icons">
               <li>
                 <a
                   href="https://github.com/LazySukanta"
@@ -49,7 +46,6 @@ const Header = () => {
                   href="https://www.linkedin.com/in/sukantadinda/"
                   target="_blank"
                   rel="noopener noreferrer"
-
                 >
                   <FaLinkedin />
                 </a>
@@ -68,7 +64,6 @@ const Header = () => {
                   href="https://twitter.com/19Sukanta"
                   target="_blank"
                   rel="noopener noreferrer"
-  
                 >
                   <FaTwitter />
                 </a>
@@ -78,7 +73,6 @@ const Header = () => {
                   href="mailto:dindasukanta19@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
-
                 >
                   <FiMail />
                 </a>
@@ -102,4 +96,3 @@ const Header = () => {
 };
 
 export default Header;
-

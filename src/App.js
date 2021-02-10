@@ -4,13 +4,11 @@ import NavControl from "./components/navbar";
 import About from "./components/About";
 import Work from "./components/work";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Footer from "./components/Contact";
 import Skills from "./components/skills";
 import "./Nav.css";
 
 
-const headers = {
-}
 function App() {
   return (
     <div className="App">
@@ -21,7 +19,7 @@ function App() {
       <About />
       <Skills />
       <Work />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

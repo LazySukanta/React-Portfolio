@@ -1,10 +1,7 @@
-import svm from "./images/SVM.png";
-import weather from "./images/Weather.jpg";
-import DummyP from "./images/DummyPortfolio.png";
-import Mern from "./images/MERN.png";
-import Turtle from "./images/turtleScreenshot.png";
-import Tourism from "./images/touristImg.png";
-import Whatsapp from "./images/WhatsappClone.jpg";
+import notes from "./images/notes.png";
+import meme from "./images/meme.jpg";
+import weather from "./images/Weather.png"
+import ticTac from "./images/ticTac.png"
 import React from "react";
 import {
   FaHtml5,
@@ -40,81 +37,45 @@ export default {
   projects: [
     {
       id: 1,
-      title: "SVM-Digit-recognition",
+      title: "Todo app",
       para:
-        "A classic problem in the field of pattern recognition is that of handwritten digit recognition. Suppose that you have images of handwritten digits ranging from 0-9.", 
+        "It is a React Todo app. We can add, edit and delete items.", 
 
-      imageSrc: svm,
+      imageSrc: notes,
 
-      url: "https://github.com/Bhaskar-maity/SVM-Digit-recognition",
+      url: "https://lazysukanta.github.io/Todo__App/",
     },
     {
       id: 2,
-      title: "Javascript-weather-app",
+      title: "Meme Creator App",
       para:
-        "A simple weather web application using Html, Css, Javascript, Weathermap Api.",
+        "A React base meme creator app. It generate meme image and can edit that image. Whole Process is done by imgflip API",
 
-      imageSrc: weather,
+      imageSrc: meme,
 
-      // url: "https://github.com/Bhaskar-maity/Javascript-weather-app",
-      url: "https://bhaskar-maity.github.io/Javascript-weather-app/",
+      url: "https://jy0qn.csb.app/",
     },
     {
       id: 3,
-      title: "DummyPortfolioWebsite",
+      title: "Weather App",
       para:
-        "A dummy Portfolio website, with Html, CSS, Javascript, smoothScroll.js, and bootstrap 4. ",
+        " Weather app made with React and fetched weather details from OpenWeatherMAP API",
 
-      imageSrc: DummyP,
+      imageSrc: weather,
 
-      // url: "https://github.com/Bhaskar-maity/DummyPortfolioWebsite",
-      url: "https://bhaskar-maity.github.io/DummyPortfolioWebsite/",
-    },
-    {
-      id: 4,
-      title: "Mern-Shopping-List",
-      para:
-        "shopping list web app by React, Node, Express, and Mongodb. Users can add or delete items on the app .",
-
-      imageSrc: Mern,
-
-      url: "https://github.com/Bhaskar-maity/Mern-Shopping-List",
+      url: "https://lazysukanta.github.io/Weather__App/",
     },
     // {
-    //   id:5 ,
-    //   title: "Turtle-Race-Game_python",
+    //   id: 4,
+    //   title: "Tic-tac-toe",
     //   para:
-    //     "Turtle-Race-Game_python.",
+    //     " JavaScript based game.",
 
-    //   imageSrc:
-    //     Turtle,
+    //   imageSrc: ticTac,
 
-    //   url: "https://github.com/Bhaskar-maity/Turtle-Race-Game_python",
+    //   url: "https://lazysukanta.github.io/Tic-Tac-Toe/",
     // },
-
-    {
-      id: 5,
-      title: "WhatsApp Clone",
-      para:
-        "created this whatsapp clone by React, Firebase real-time database and Google authentication.",
-
-      imageSrc: Whatsapp,
-
-      // url: "https://github.com/Bhaskar-maity/WhatsApp-Clone",
-      url: "https://whatsapp-clone-1bf30.firebaseapp.com/",
-    },
-
-    {
-      id: 6,
-      title: "Tourism-website",
-      para:
-        "This front-end website is made for a Tourism Company. Made with HTML, CSS, Javascript, Bootstrap and animation stuff.",
-
-      imageSrc: Tourism,
-
-      // url: "https://github.com/Bhaskar-maity/Tourism-website",
-      url: "https://bhaskar-maity.github.io/Tourism-website/",
-    },
+ 
   ],
 
   skills: [

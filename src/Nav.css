@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 :root {
   --primary-white: #fff;
   --primary-orange: #f9ab00;
@@ -18,4 +20,7 @@
 
 .nav-li-a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
+}
+h1{
+  font-family: 'Lobster', cursive;
 }

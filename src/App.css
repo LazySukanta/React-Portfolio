@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
 * {
   font-family: Source Sans Pro,Helvetica,Arial,sans-serif;
 
@@ -14,7 +17,7 @@
 }
 
 
-/*--------------------------------- navbar */
+/*--------------------------------- navbar ---------------------------------*/
 .navbar-dark {
   background-color: grey;
   font-weight: 500;
@@ -38,7 +41,7 @@
   border-radius: 10%;
   height: 400px;
 }
-/* ------------------------------heading part */
+/* ------------------------------heading part ----------------- */
 .header{
   height: 700px;
   padding-top: 9rem;
@@ -91,12 +94,14 @@
   background-color: grey;
   border: none;
   margin-bottom: 2rem;
+  padding: 20px;
+  font-size: 1.2 rem;
 }
 
 .resume-button:hover {
   border: 1px solid grey;
   background-color: white !important;
-  color: grey;
+  color: orange;
 }
 
 .resume-button > a{
@@ -122,10 +127,10 @@
 
  /* hr */
  hr {
-  background-color:#692ba8;
+  background-color:gray;
   border-width: 0.1rem;
   border-style: solid;
-  border-color: #692ba8;
+  border-color: gray;
   border-image: initial;
   margin: 2rem auto;
 }
@@ -167,4 +172,36 @@ a:hover {
 
 p {
   font-weight: 300;
+}
+
+
+
+
+
+
+#contact {
+  box-sizing: border-box;
+  background: #191919;
+  padding-top: 96px;
+  padding-bottom: 102px;
+  color: #636363;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+
+h1 h2{
+  font-family: 'Lobster', cursive;
 }
