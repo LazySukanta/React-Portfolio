@@ -32,8 +32,8 @@ export default {
   // About Text
   abouttext: [
     "Hi there! I am Sukanta. I am persuing my undergraduation in Computer Science from University Of Engineering & Management , Kolkata .",
-    "My Areas of Interest: Competetive Programming, Web Development",
-    "Who love exploring new things. My passion in life is to gain knowledge.I don't fear failures or rejections they are ways to enrich you and glorify your personality.",
+    "My areas of interests are Competetive Programming, Web Development, Machine Learning.",
+    "I love exploring new things.I don't fear failures or rejections they are ways to enrich you and glorify your personality.",
   ],
 
   //  Projects

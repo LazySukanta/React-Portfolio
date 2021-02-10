@@ -8,7 +8,7 @@
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,39,43,0.9110994739692753) 0%);
   position: relative;
-  width: 100vw;
+  /* width: 100vw; */
   background-size: cover;
   background-position: center;
 }
@@ -16,7 +16,7 @@
 
 /*--------------------------------- navbar */
 .navbar-dark {
-  background-color: #512DA8;
+  background-color: grey;
   font-weight: 500;
   
 }
@@ -35,7 +35,8 @@
 }
 .about-img {
 
-  border-radius: 50%;
+  border-radius: 10%;
+  height: 400px;
 }
 /* ------------------------------heading part */
 .header{
@@ -87,15 +88,15 @@
 
 .resume-button {
   margin-top: 2rem;
-  background-color: #512DA8;
+  background-color: grey;
   border: none;
   margin-bottom: 2rem;
 }
 
 .resume-button:hover {
-  border: 1px solid #512DA8;
+  border: 1px solid grey;
   background-color: white !important;
-  color: #512DA8;
+  color: grey;
 }
 
 .resume-button > a{
@@ -129,24 +130,7 @@
   margin: 2rem auto;
 }
 
-/* -------------------------------ribbon */
-.ribbon{
-  height: 4px;
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color:#692ba8;
-  
-}
-.ribbon-little{
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  margin-top: -54px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color:#692ba8;
-}
+
 
 /* -------------------------------social icon */
 .social-icons {
@@ -178,7 +162,7 @@ a {
   color: #575b60;
 }
 a:hover {
-  color: #512DA8;
+  color: orange;
 }
 
 p {
