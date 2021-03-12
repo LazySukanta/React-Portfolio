@@ -81,7 +81,7 @@ const Header = () => {
             </ul>
             <Button className="btns draw-border resume" style={{}}>
               <a
-                href="https://docs.google.com/document/d/1mwspRv0pmqgu0TTUrmWrk4W_XXU5FXfZay6e21vQog0/edit?usp=sharing"
+                href="https://drive.google.com/file/d/1WX6PpTbAP7_S2mlK4Tl6ktNoHfhWUpow/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
